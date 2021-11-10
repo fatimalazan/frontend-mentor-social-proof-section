@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --verydarkmagenta: hsl(300, 43%, 22%);
+    --softpink: hsl(333, 80%, 67%);
+    --darkgraymagenta: hsl(303, 10%, 53%);
+    --lightgraymagenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Spartan', sans-serif;
+    line-height: 1.1;
+    /* background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.social-proof {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    padding: 3rem 7rem;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;   
+    padding: 1rem 2rem;
+}
+
+.header {
+    flex: 1;
+}
+
+#section-header {
+    color: var(--verydarkmagenta);
+    margin-bottom: 1rem;
+}
+
+#section-desc {
+    color: var(--verydarkmagenta);
+    line-height: 1.6;
+}
+
+.rate {
+    flex: 1;
+}
+
+.rate-box {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--lightgraymagenta);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.rate-box:nth-child(1) {
+    margin-left: 6rem;
+}
+
+.rate-box:nth-child(2) {
+    margin-left: 9rem;
+}
+
+.rate-box:nth-child(3) {
+    margin-left: 12rem;
+}
+
+.five-stars {
+    margin-right: 3rem;
+}
+
+.rate-desc {
+    font-weight: 700;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.card-review {
+    height: 280px;
+    background-color: var(--verydarkmagenta);
+    color: var(--white);
+    padding: 2rem 3rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+}
+
+.card-review:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.card-review:nth-child(2) {
+    margin-top: 4rem;
+}
+
+.card-review:nth-child(3) {
+    margin-top: 6rem;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info > img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.info-name {
+    font-weight: 700;
+}
+
+.buyer {
+    color: var(--white);
+    margin-bottom: .4rem;
+}
+
+.buyer-desc {
+    color: var(--darkgraymagenta);
+}
+
+.review-text {
+    line-height: 1.7;
+    margin-top: 2rem;
+}
