@@ -4,6 +4,16 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Table of Contents
 
+- [Overview](#overview)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
+- [Author](#author)
+
 ## Overview
 
 ### The Challenge
