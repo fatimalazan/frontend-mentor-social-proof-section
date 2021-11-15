@@ -138,6 +138,7 @@ a {
 .review-text {
     line-height: 1.7;
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .attribution {
@@ -288,5 +289,6 @@ a {
     .review-text {
         line-height: 1.7;
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 }
